@@ -1,0 +1,51 @@
+# Ignore old code
+MXCompress/
+
+# Ignore data & outputs but keep folder
+data/*
+!data/README.md
+
+experiments/*
+!experiments/README.md
+
+cryo_out/*
+!cryo_out/README.md
+
+# Logs
+wandb/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Arrays & outputs
+*.npy
+*.npz
+
+# Images (generated)
+*.png
+*.jpg
+*.jpeg
+
+# Models
+*.pth
+*.pt
+*.ckpt
+
+# Environment
+.venv/
+env/
+
+# Editor
+.vscode/
+.idea/
+
+*.so
+
+
+batch_run.sh
+conventional_compress_code/
+l_bnl_compress.py
+simple_compress.py
